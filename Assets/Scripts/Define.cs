@@ -20,9 +20,12 @@ public class Define
 	public enum Scene
 	{
 		Unknown,
-		Login,
-		Lobby,
-		Game,
+		IntroScene,
+		MenuScene,
+		SingleScene,
+		MultiScene,
+		SelectScene,
+		End
 	}
 
 	public enum PlayerAnimState
